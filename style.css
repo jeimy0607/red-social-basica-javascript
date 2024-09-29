@@ -1,0 +1,64 @@
+body{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(188, 224, 236);
+    margin: 20px auto;
+    text-align: center;
+    max-width: 50%;
+  }
+  
+  h1{
+    color: rgb(79, 136, 201);
+  }
+
+  button{
+    padding: 8px 12px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: rgb(101, 148, 202);
+    border: none;
+    border-radius: 6px;
+    transition: .5s all ease;
+  }
+
+  button:hover{
+    background-color: rgb(130, 173, 221);
+  }
+
+  form{
+    margin-top: 20px;
+  }
+
+  label{
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+
+  ul{
+    list-style: none;
+    padding: 0;
+
+  }
+
+  .postItem{
+    background-color: rgb(167, 213, 228);
+    border: 1px solid rgb(127, 174, 212);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+
+  .editForm{
+    display: none;
+    margin-top: 10px;
+  }
